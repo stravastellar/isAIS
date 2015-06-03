@@ -55,7 +55,7 @@
 	{
 		if(!extension_loaded('dio'))
 		{
-			echoFlush( "Current version of AIS is no longer using DIO. The routine will be continued." )
+			echoFlush( "Current version of AIS is no longer using DIO. The routine will be continued." );
 		}
 	}
 	
