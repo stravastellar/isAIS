@@ -1,7 +1,7 @@
 <?php
 
 	//-- settings --//
-	$GLOBALS['$portName0'] = 'com3';
+	$GLOBALS['$portName0'] = 'com6';
 	$GLOBALS['$baudRate0'] = 9600;
 	$GLOBALS['$bits0'] = 8;
 	$GLOBALS['$stopBit0'] = 1;
@@ -14,7 +14,7 @@
 	$GLOBALS['$messageNotIn'] = 'terlambat parah / tidak tap masuk';
 	$GLOBALS['$messageNotOut'] = 'pulang tidak tap';
 	$GLOBALS['$serverName'] = 'DEMOUNIT-PC\SQL2008';
-	$GLOBALS{'$dbName'] = 'soyaletegra';
+	$GLOBALS['$dbName'] = 'soyaletegra';
 	
 	//Establish connection to SQL
 	function connect()
